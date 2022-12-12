@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Price Filter</title>
+      <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+      <!-- Phosphor Icons-->
+    <script src="https://unpkg.com/phosphor-icons"></script>
+      <!-- JS -->
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Search your favorite game!<i class="ph-smiley"></i></h1>
+        <div class="input-wrapper">
+          <label for="filter" class="sr-only">Filter</label>
+          <input type="text" id="filter" placeholder="Filter...">
+          <i class="ph-magnifying-glass"></i>
+        </div>
+    </header>
+    <main>
+      <section id="root__cards">
+        <ul class="cards">
+          <li class="witcher_card">
+            <div class="card_header">
+              <h2>The Witcher 3: Wild Hunt – Game of the Year Edition</h2>
+            </div>
+            <div class="card_main_witcher">
+            </div>
+            <div class="card_footer">
+              <p>The Witcher 3: Wild Hunt é um jogo eletrônico de RPG de ação em mundo aberto desenvolvido pela CD Projekt RED.</p> 
+              <a href="#"  class="link">...</a>
+            </div>
+          </li>
+          <li class="seaOfThieves_card">
+            <div class="card_header">
+              <h2>Sea Of Thieves</h2>
+            </div>
+            <div class="card_main_seaOfThieves">
+            </div>
+            <div class="card_footer">
+              <p>Sea of Thieves é um jogo eletrônico de ação-aventura produzido pela Rare e publicado pela Xbox Game Studios exclusivamente para Xbox One e Windows 10, sendo lançado em 20 de março de 2018.</p>
+              <a href="#" class="link">...</a>
+            </div>
+          </li>
+          <li id="gtav_card">
+            <div class="card_header">
+              <h2>Grand Theft Auto V</h2>
+            </div>
+            <div class="card_main_gtav">
+            </div>
+            <div class="card_footer">
+              <p>GTA V é um jogo eletrônico de ação-aventura desenvolvido pela Rockstar North e publicado pela Rockstar Games.</p>
+              <a href="#" class="link">...</a>
+            </div>
+          </li>
+          <li id="residentEvil2Remake_card">
+            <div class="card_header">
+              <h2>Resident Evil 2 Remake</h2>
+            </div>
+            <div class="card_main_residentEvil2Remake">
+            </div>
+            <div class="card_footer">
+              <p>Resident Evil 2, chamado no Japão de Biohazard RE:2, é um jogo eletrônico de survival horror desenvolvido e publicado pela Capcom, sendo um remake do jogo original de 1998.</p>
+              <a href="#" class="link">...</a>
+            </div>
+          </li>
+          <li id="redDeadRedemption2_card">
+            <div class="card_header">
+              <h2>Red Dead Redemption 2</h2>
+            </div>
+            <div class="card_main_redDeadRedemption2">
+            </div>
+            <div class="card_footer">
+              <p>Red Dead Redemption 2 é um jogo eletrônico de ação-aventura desenvolvido e publicado pela Rockstar Games. É o terceiro título da série Red Dead e uma prequela de Red Dead Redemption, tendo sido lançado em outubro de 2018 para PlayStation 4 e Xbox One e em novembro de 2019 para Microsoft Windows e Google Stadia.</p>
+              <a href="#" class="link">...</a>
+            </div>
+          </li>
+          <li id="minecraftDungeons_card">
+            <div class="card_header">
+              <h2>Minecraft Dungeons</h2>
+            </div>
+            <div class="card_main_minecraftDungeons">
+            </div>
+            <div class="card_footer">
+              <p>Minecraft Dungeons é um jogo eletrônico dungeon crawler desenvolvido pela Mojang Stockholm, Mojang Shanghai e Double Eleven e publicado pela Xbox Game Studios. É baseado em Minecraft e foi lançado em 26 de maio de 2020 para Microsoft Windows, Nintendo Switch, PlayStation 4 e Xbox One.</p>
+              <a href="#" class="link">...</a>
+            </div>
+          </li>
+          <li id="grounded_card">
+            <div class="card_header">
+              <h2>Grounded</h2>
+            </div>
+            <div class="card_main_grounded">
+            </div>
+            <div class="card_footer">
+              <p>Grounded é um jogo de sobrevivência, desenvolvido pela Obsidian Entertainment e publicado pela Xbox Game Studios. Foi lançado para Windows e Xbox One em 28 de julho de 2020 como um jogo de acesso antecipado.</p>
+              <a href="https://www.xbox.com/pt-BR/games/grounded#purchaseoptions" class="link" target="_blank"><img class="xbox-icon" src="/assets/img/xbox-icon.ico" alt="Icone do xbox" target="_blank"><img class="steam-icon" src="/assets/img/steam-icon.ico" alt="Icone da Steam" target="_blank"></a> 
+            </div>
+          </li>
+          <li id="theWitcher_card">
+            <div class="card_header">
+              <h2>The Witcher: Enhanced Edition Director's Cut</h2>
+            </div>
+            <div class="card_main_theWitcher">
+            </div>
+            <div class="card_footer">
+              <p>The Witcher é um jogo eletrônico de RPG de ação desenvolvido pela CD Projekt RED e publicado pela Atari. Baseado na série de livros Wiedźmin, do escritor polonês Andrzej Sapkowski, The Witcher se passa em um mundo de fantasia medieval e segue a história de Geralt de Rívia, um dos últimos bruxos restantes na Terra.</p>
+              <a href="https://store.steampowered.com/app/20900/The_Witcher_Enhanced_Edition_Directors_Cut/?l=portuguese" class="link" target="_blank"><img class="steam-icon" src="/assets/img/steam-icon.ico" alt="Icone da Steam" target="_blank"></a> 
+            </div>
+          </li><li id="theSims_card">
+            <div class="card_header">
+              <h2>The Sims 4</h2>
+            </div>
+            <div class="card_main_theSims">
+            </div>
+            <div class="card_footer">
+              <p>The Sims 4 é um jogo de simulação social de 2014 desenvolvido pela Maxis e publicado pela Electronic Arts. É o quarto título principal da série The Sims e é a sequência de The Sims 3..</p>
+              <a href="https://www.xbox.com/pt-BR/games/store/the-sims-4/c08jxnk0vg5l" class="link" target="_blank"><img class="steam-icon" src="/assets/img/xbox-icon.ico" alt="Icone do Xbox" target="_blank"></a> 
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <span>Feito com muito 💙 por Vítor Oliveira Arimatéa & Maria Eduarda</span>
+    </footer>
+  </body>
+</html>
